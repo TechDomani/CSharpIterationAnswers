@@ -33,13 +33,7 @@ namespace CSharpIterationExercises.Tests
 			CollectionAssert.AreEqual(expected, result);
 		}
 
-		[TestMethod]
-		public void TestMultiples()
-		{
-			List<int> expected = new() { 7, 14, 21, 28, 35, 42, 49, 56 };
-			List<int> result = IterationExercises.CalculateMultiples(7, 8);
-			CollectionAssert.AreEqual(expected, result);
-		}
+		// Write your own test for Test multiples
 
 		[TestMethod]
 		[DataRow(-1, false)]
